@@ -1,4 +1,5 @@
 """
+У нас росал липа. Липа стала стара. Липа стала суха. Липа упала. Пришли папа и паша. У папы пила. У паши топорик.
 """
 space = ' '
 Text = str(input())
@@ -9,8 +10,7 @@ Exclamation = Text.count('!')
 
 sentences = Dots + Questions + Exclamation
 
-for i in range(0,len(Text)):
-    if i == space and i+1 == space:
-        Text.pop(i+1)
-print(Text)
-print(sentences)
+Words = len(Text.split())
+
+for i in Text
+print(sentences, Words)
