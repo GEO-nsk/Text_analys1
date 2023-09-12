@@ -4,7 +4,29 @@
 
 from textblob import TextBlob
 
-space = ' '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''space = ' '
 syllable = 0
 Text = str(input())
 
@@ -19,4 +41,4 @@ Words = len(Text.split())
 for i in Text:
     if i == 'а' or i == 'е' or i == 'ё' or i == 'и' or i == 'о' or i == 'у' or i == 'э' or i == 'ы' or i == 'я' or i == 'ю':
         syllable += 1
-print(sentences, Words, syllable)
+print(sentences, Words, syllable)'''
