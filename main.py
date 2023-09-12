@@ -1,34 +1,12 @@
 """
-У нас росал липа. Липа стала стара. Липа стала суха. Липа упала. Пришли папа и паша. У папы пила. У паши топорик.
+У нас росла липа. Липа стала стара. Липа стала суха. Липа упала. Пришли папа и паша. У папы пила. У паши топорик. Они распилили липу.
 """
 
 from textblob import TextBlob
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''space = ' '
+space = ' '
 syllable = 0
-Text = str(input())
+Text = 'У нас росла липа. Липа стала стара. Липа стала суха. Липа упала. Пришли папа и паша. У папы пила. У паши топорик. Они распилили липу.'
 
 Dots = Text.count('.')
 Questions = Text.count('?')
@@ -38,7 +16,9 @@ sentences = Dots + Questions + Exclamation
 
 Words = len(Text.split())
 
+Text = Text.lower()
+
 for i in Text:
     if i == 'а' or i == 'е' or i == 'ё' or i == 'и' or i == 'о' or i == 'у' or i == 'э' or i == 'ы' or i == 'я' or i == 'ю':
         syllable += 1
-print(sentences, Words, syllable)'''
+print(sentences, Words, syllable)
