@@ -21,4 +21,12 @@ Text = Text.lower()
 for i in Text:
     if i == 'а' or i == 'е' or i == 'ё' or i == 'и' or i == 'о' or i == 'у' or i == 'э' or i == 'ы' or i == 'я' or i == 'ю':
         syllable += 1
-print(sentences, Words, syllable)
+
+length_of_sentence = Words/sentences
+
+length_of_syllable = syllable/Words
+
+PRE_rus = 206.835 - 1.3*(Words/sentences) - 60.1*(syllable/Words)
+PRE_eng = 206.835 - 1.015*(Words/sentences) - 84.6*(syllable/Words)
+print(sentences, Words, syllable, length_of_sentence, length_of_syllable, PRE_rus)
+
