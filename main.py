@@ -6,9 +6,9 @@ from textblob import TextBlob
 from deep_translator import GoogleTranslator
 
 
+Text = str(input())
 space = ' '
 syllable = 0
-Text = 'У нас росла липа. Липа стала стара. Липа стала суха. Липа упала. Пришли папа и паша. У папы пила. У паши топорик. Они распилили липу.'
 
 Text_en = GoogleTranslator(source='auto', target='en').translate(Text)
 
