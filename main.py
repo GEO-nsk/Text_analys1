@@ -1,5 +1,7 @@
 """
-У нас росла липа. Липа стала стара. Липа стала суха. Липа упала. Пришли папа и паша. У папы пила. У паши топорик. Они распилили липу.
+Egor Gagol - 60
+Evgeny Tarlo  - 55
+Nikolay Karpenko - 20
 """
 
 from textblob import TextBlob
